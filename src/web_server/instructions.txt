@@ -1,0 +1,7 @@
+To run the stream, first run the standalone stream with this command in terminal: python mjpeg_server.py
+To just see this simple stream, then go into your browser and enter: http://192.168.1.92:8000
+
+To view it in our server and webpage, make sure mjpeg_server.py keeps running in the backgroud on port 8000, then
+open browser and enter the IP address to view our wepage, 192.168.1.92
+
+Manually end stream in terminal with Ctrl + C
