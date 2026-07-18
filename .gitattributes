@@ -1,0 +1,2 @@
+# Prevent git from currupting the .gcode
+*.gcode binary

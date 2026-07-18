@@ -1,0 +1,18 @@
+# ignore stl/ folder but not the latest version and the readme
+stl/*
+!stl/V3/
+!stl/README.md
+
+# 580 proposal tex build files
+documentation/cs_580/Project_proposal/*
+!documentation/cs_580/Project_proposal/*.tex
+!documentation/cs_580/Project_proposal/*.bib
+!documentation/cs_580/Project_proposal/*.sty
+!documentation/cs_580/Project_proposal/*.pdf
+
+# 580 ML pycache
+ML/ml_starter/__pycache__/
+
+# Danger/Threat dataset. GBs of data, please download from the link in the README if needed
+ML/data/danger/*
+!ML/data/danger/README.md
