@@ -2,7 +2,7 @@
 
 A real-time threat detection system built on Raspberry Pi 5, combining a fine-tuned YOLOv5 model with LIME-based interpretability and FGSM adversarial robustness evaluation. This repository contains the ML components of the ADAM system: model fine-tuning, interpretability analysis, and robustness testing.
 
-> **Note:** The full ADAM system includes hardware components (enclosure, servo, LEDs, speaker, web interface) built by Nathan Kopacz. This repo focuses on the ML pipeline built by Harshit Singh and August Garibay.
+> **Note:** This repo contains the full ADAM codebase. The ML pipeline was built by Harshit Singh and August Garibay. The hardware module (`src/hardware/`) was built by Nathan Kopacz.
 
 ---
 
